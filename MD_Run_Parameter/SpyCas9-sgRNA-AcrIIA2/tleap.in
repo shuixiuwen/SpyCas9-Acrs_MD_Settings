@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.RNA.OL3
+6ifo = loadpdb 6ifo_fixed_deletedP.pdb
+solvateOct 6ifo TIP3PBOX 12.0
+addIons2 6ifo Na+ 0
+addIons2 6ifo Cl- 0
+saveamberparm 6ifo 6ifo.prmtop 6ifo.inpcrd
+quit
+

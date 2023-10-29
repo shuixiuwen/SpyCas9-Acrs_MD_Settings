@@ -1,0 +1,148 @@
+nohup: ignoring input
+-I: Adding /opt/amber20/dat/leap/prep to search path.
+-I: Adding /opt/amber20/dat/leap/lib to search path.
+-I: Adding /opt/amber20/dat/leap/parm to search path.
+-I: Adding /opt/amber20/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./tleap.in
+----- Source: /opt/amber20/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /opt/amber20/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /opt/amber20/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /opt/amber20/dat/leap/lib/amino12.lib
+Loading library: /opt/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /opt/amber20/dat/leap/lib/aminont12.lib
+----- Source: /opt/amber20/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /opt/amber20/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /opt/amber20/dat/leap/lib/atomic_ions.lib
+Loading library: /opt/amber20/dat/leap/lib/solvents.lib
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+----- Source: /opt/amber20/dat/leap/cmd/leaprc.RNA.OL3
+----- Source of /opt/amber20/dat/leap/cmd/leaprc.RNA.OL3 done
+Log file: ./leap.log
+
+/opt/amber20/bin/teLeap: Note.
+Skipping parm10.dat: already loaded
+Loading library: /opt/amber20/dat/leap/lib/RNA.lib
+Loading PDB file: ./4zt0_fixed.BL01500001.pdb
+  total atoms in file: 12693
+  Leap added 12105 missing atoms according to residue templates:
+       12105 H / lone pairs
+Scaling up box by a factor of 1.356265 to meet diagonal cut criterion
+  Solute vdw bounding box:              120.819 83.820 113.156
+  Total bounding box for atom centers:  153.369 153.369 153.369
+      (box expansion for 'iso' is  38.7%)
+  Solvent unit box:                     18.774 18.774 18.774
+  Volume: 1839287.696 A^3 (oct)
+  Total mass 1013217.106 amu,  Density 0.915 g/cc
+  Added 46181 residues.
+49 Na+ ions required to neutralize.
+Adding 49 counter ions to "4zt0" using 1A grid
+Grid extends from solute vdw + 1.37  to  7.47
+Resolution:      1.00 Angstrom.
+Calculating grid charges
+Placed Na+ in 4zt0 at (20.13, -12.44, 43.65).
+Placed Na+ in 4zt0 at (8.13, -7.44, 28.65).
+Placed Na+ in 4zt0 at (14.13, -21.44, 35.65).
+Placed Na+ in 4zt0 at (-3.87, -11.44, -0.35).
+Placed Na+ in 4zt0 at (11.13, -24.44, 51.65).
+Placed Na+ in 4zt0 at (14.13, -20.44, 8.65).
+Placed Na+ in 4zt0 at (-4.87, -30.44, -17.35).
+Placed Na+ in 4zt0 at (12.13, -10.44, 25.65).
+Placed Na+ in 4zt0 at (1.13, -8.44, 56.65).
+Placed Na+ in 4zt0 at (19.13, 6.56, 44.65).
+Placed Na+ in 4zt0 at (0.13, -34.44, -18.35).
+Placed Na+ in 4zt0 at (0.13, -8.44, 2.65).
+Placed Na+ in 4zt0 at (25.13, -25.44, 16.65).
+Placed Na+ in 4zt0 at (19.13, -15.44, 41.65).
+Placed Na+ in 4zt0 at (-7.87, -20.44, -21.35).
+Placed Na+ in 4zt0 at (5.13, 2.56, -0.35).
+Placed Na+ in 4zt0 at (-1.87, -42.44, 3.65).
+Placed Na+ in 4zt0 at (4.13, -11.44, 28.65).
+Placed Na+ in 4zt0 at (28.13, 3.56, 6.65).
+Placed Na+ in 4zt0 at (3.13, -29.44, 51.65).
+Placed Na+ in 4zt0 at (-12.87, -32.44, -11.35).
+Placed Na+ in 4zt0 at (49.13, 16.56, -1.35).
+Placed Na+ in 4zt0 at (12.13, -14.44, 32.65).
+Placed Na+ in 4zt0 at (30.13, 25.56, 21.65).
+Placed Na+ in 4zt0 at (-34.87, 33.56, -10.35).
+Placed Na+ in 4zt0 at (15.13, -30.44, 3.65).
+Placed Na+ in 4zt0 at (25.13, 22.56, -22.35).
+Placed Na+ in 4zt0 at (16.13, 8.56, 28.65).
+Placed Na+ in 4zt0 at (42.13, 25.56, -10.35).
+Placed Na+ in 4zt0 at (8.13, -21.44, 62.65).
+Placed Na+ in 4zt0 at (-0.87, -33.44, 61.65).
+Placed Na+ in 4zt0 at (21.13, -19.44, 46.65).
+Placed Na+ in 4zt0 at (12.13, 12.56, 0.65).
+Placed Na+ in 4zt0 at (22.13, -19.44, 16.65).
+Placed Na+ in 4zt0 at (-1.87, -20.44, -18.35).
+Placed Na+ in 4zt0 at (1.13, -13.44, 50.65).
+Placed Na+ in 4zt0 at (20.13, 47.56, -18.35).
+Placed Na+ in 4zt0 at (43.13, -3.44, 14.65).
+Placed Na+ in 4zt0 at (-7.87, -20.44, 54.65).
+Placed Na+ in 4zt0 at (-28.87, 33.56, -20.35).
+Placed Na+ in 4zt0 at (22.13, -30.44, 19.65).
+Placed Na+ in 4zt0 at (34.13, 24.56, -25.35).
+Placed Na+ in 4zt0 at (22.13, -13.44, 34.65).
+Placed Na+ in 4zt0 at (40.13, -7.44, -5.35).
+Placed Na+ in 4zt0 at (-3.87, -16.44, -25.35).
+Placed Na+ in 4zt0 at (48.13, -10.44, 30.65).
+Placed Na+ in 4zt0 at (14.13, 32.56, 11.65).
+Placed Na+ in 4zt0 at (8.13, -32.44, 21.65).
+Placed Na+ in 4zt0 at (-37.87, 25.56, -25.35).
+
+Done adding ions.
+
+/opt/amber20/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = -7.10543e-14; ion1 charge = -1;
+     can't neutralize.
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 4876 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CGLY	1
+	NLYS	1
+	WAT	46181
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 1; Notes = 1.

@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.RNA.OL3
+5xbl = loadpdb 5xbl_fixed_deleteP.pdb
+solvateOct 5xbl TIP3PBOX 12.0
+addIons2 5xbl Na+ 0
+addIons2 5xbl Cl- 0
+saveamberparm 5xbl 5xbl.prmtop 5xbl.inpcrd
+quit
+

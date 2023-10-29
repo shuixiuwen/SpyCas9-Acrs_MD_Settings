@@ -1,0 +1,184 @@
+nohup: ignoring input
+-I: Adding /opt/amber20/dat/leap/prep to search path.
+-I: Adding /opt/amber20/dat/leap/lib to search path.
+-I: Adding /opt/amber20/dat/leap/parm to search path.
+-I: Adding /opt/amber20/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./tleap.in
+----- Source: /opt/amber20/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /opt/amber20/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /opt/amber20/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /opt/amber20/dat/leap/lib/amino12.lib
+Loading library: /opt/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /opt/amber20/dat/leap/lib/aminont12.lib
+----- Source: /opt/amber20/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /opt/amber20/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /opt/amber20/dat/leap/lib/atomic_ions.lib
+Loading library: /opt/amber20/dat/leap/lib/solvents.lib
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+----- Source: /opt/amber20/dat/leap/cmd/leaprc.RNA.OL3
+----- Source of /opt/amber20/dat/leap/cmd/leaprc.RNA.OL3 done
+Log file: ./leap.log
+
+/opt/amber20/bin/teLeap: Note.
+Skipping parm10.dat: already loaded
+Loading library: /opt/amber20/dat/leap/lib/RNA.lib
+Loading PDB file: ./5xbl_fixed_deleteP.pdb
+  total atoms in file: 13705
+  Leap added 12916 missing atoms according to residue templates:
+       12916 H / lone pairs
+Scaling up box by a factor of 1.362430 to meet diagonal cut criterion
+  Solute vdw bounding box:              117.532 81.266 109.678
+  Total bounding box for atom centers:  150.230 150.230 150.230
+      (box expansion for 'iso' is  39.1%)
+  Solvent unit box:                     18.774 18.774 18.774
+  Volume: 1729365.419 A^3 (oct)
+  Total mass 955162.916 amu,  Density 0.917 g/cc
+  Added 42143 residues.
+75 Na+ ions required to neutralize.
+Adding 75 counter ions to "5xbl" using 1A grid
+Grid extends from solute vdw + 1.37  to  7.47
+Resolution:      1.00 Angstrom.
+Calculating grid charges
+Placed Na+ in 5xbl at (-2.39, -9.98, -4.96).
+Placed Na+ in 5xbl at (11.61, -12.98, 32.04).
+Placed Na+ in 5xbl at (4.61, -13.98, 27.04).
+Placed Na+ in 5xbl at (-12.39, -30.98, -15.96).
+Placed Na+ in 5xbl at (8.61, -27.98, 48.04).
+Placed Na+ in 5xbl at (-7.39, -18.98, -19.96).
+Placed Na+ in 5xbl at (14.61, -8.98, 26.04).
+Placed Na+ in 5xbl at (15.61, -19.98, 6.04).
+Placed Na+ in 5xbl at (29.61, -32.98, 27.04).
+Placed Na+ in 5xbl at (13.61, -28.98, 42.04).
+Placed Na+ in 5xbl at (6.61, -5.98, 24.04).
+Placed Na+ in 5xbl at (-6.39, -28.98, -20.96).
+Placed Na+ in 5xbl at (14.61, 11.02, 1.04).
+Placed Na+ in 5xbl at (14.61, -30.98, 0.04).
+Placed Na+ in 5xbl at (-6.39, -32.98, 56.04).
+Placed Na+ in 5xbl at (18.61, -17.98, 40.04).
+Placed Na+ in 5xbl at (-43.39, -17.98, -30.96).
+Placed Na+ in 5xbl at (12.61, 3.02, 11.04).
+Placed Na+ in 5xbl at (2.61, -9.98, 15.04).
+Placed Na+ in 5xbl at (9.61, -27.98, 30.04).
+Placed Na+ in 5xbl at (-5.39, -13.98, -32.96).
+Placed Na+ in 5xbl at (-15.39, -17.98, 8.04).
+Placed Na+ in 5xbl at (7.61, -24.98, 59.04).
+Placed Na+ in 5xbl at (-17.39, 45.02, 6.04).
+Placed Na+ in 5xbl at (2.61, -20.98, -16.96).
+Placed Na+ in 5xbl at (23.61, -22.98, 14.04).
+Placed Na+ in 5xbl at (6.61, -1.98, -43.96).
+Placed Na+ in 5xbl at (18.61, -11.98, 44.04).
+Placed Na+ in 5xbl at (-20.39, 8.02, -39.96).
+Placed Na+ in 5xbl at (9.61, 4.02, 2.04).
+Placed Na+ in 5xbl at (-30.39, 39.02, -7.96).
+Placed Na+ in 5xbl at (-16.39, -14.98, 21.04).
+Placed Na+ in 5xbl at (5.61, 5.02, -33.96).
+Placed Na+ in 5xbl at (-4.39, 4.02, 20.04).
+Placed Na+ in 5xbl at (29.61, 25.02, -15.96).
+Placed Na+ in 5xbl at (-30.39, -28.98, -15.96).
+Placed Na+ in 5xbl at (-7.39, -18.98, 41.04).
+Placed Na+ in 5xbl at (29.61, -15.98, -11.96).
+Placed Na+ in 5xbl at (-15.39, 7.02, -13.96).
+Placed Na+ in 5xbl at (-25.39, -4.98, 20.04).
+Placed Na+ in 5xbl at (-0.39, -15.98, -21.96).
+Placed Na+ in 5xbl at (-3.39, -26.98, 11.04).
+Placed Na+ in 5xbl at (16.61, 7.02, 28.04).
+Placed Na+ in 5xbl at (50.61, -16.98, 28.04).
+Placed Na+ in 5xbl at (-33.39, -12.98, -14.96).
+Placed Na+ in 5xbl at (23.61, -28.98, -5.96).
+Placed Na+ in 5xbl at (9.61, 47.02, -13.96).
+Placed Na+ in 5xbl at (11.61, -15.98, 37.04).
+Placed Na+ in 5xbl at (-40.39, 12.02, 13.04).
+Placed Na+ in 5xbl at (34.61, 19.02, -20.96).
+Placed Na+ in 5xbl at (12.61, -33.98, 11.04).
+Placed Na+ in 5xbl at (-38.39, -19.98, -40.96).
+Placed Na+ in 5xbl at (-34.39, 26.02, -16.96).
+Placed Na+ in 5xbl at (2.61, -23.98, 46.04).
+Placed Na+ in 5xbl at (7.61, -31.98, -22.96).
+Placed Na+ in 5xbl at (-2.39, -40.98, 1.04).
+Placed Na+ in 5xbl at (32.61, -21.98, 4.04).
+Placed Na+ in 5xbl at (-38.39, 26.02, -4.96).
+Placed Na+ in 5xbl at (-44.39, -2.98, -6.96).
+Placed Na+ in 5xbl at (-0.39, -8.98, 0.04).
+Placed Na+ in 5xbl at (-4.39, -32.98, 42.04).
+Placed Na+ in 5xbl at (1.61, 43.02, 6.04).
+Placed Na+ in 5xbl at (14.61, -36.98, 21.04).
+Placed Na+ in 5xbl at (5.61, 1.02, -52.96).
+Placed Na+ in 5xbl at (22.61, -4.98, 21.04).
+Placed Na+ in 5xbl at (40.61, 1.02, -4.96).
+Placed Na+ in 5xbl at (9.61, -0.98, -27.96).
+Placed Na+ in 5xbl at (24.61, -21.98, 43.04).
+Placed Na+ in 5xbl at (-34.39, -17.98, -22.96).
+Placed Na+ in 5xbl at (38.61, 36.02, -10.96).
+Placed Na+ in 5xbl at (-5.39, -13.98, 47.04).
+Placed Na+ in 5xbl at (1.61, 10.02, 10.04).
+Placed Na+ in 5xbl at (-29.39, -6.98, -32.96).
+Placed Na+ in 5xbl at (-26.39, -10.98, 19.04).
+Placed Na+ in 5xbl at (7.61, 4.02, 54.04).
+
+Done adding ions.
+
+/opt/amber20/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = -4.54747e-13; ion1 charge = -1;
+     can't neutralize.
+Checking Unit.
+
+/opt/amber20/bin/teLeap: Warning!
+There is a bond of 4.223 angstroms between C and N atoms:
+-------  .R<GLN 675>.A<C 16> and .R<GLY 676>.A<N 1>
+
+/opt/amber20/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 5250 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CGLY	1
+	CLEU	1
+	NLYS	1
+	NMET	1
+	WAT	42143
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 2; Notes = 2.
