@@ -1,0 +1,16 @@
+Input file for running PBSA
+&general
+        startframe=1, endframe=10000, interval=10,
+        verbose=1, keep_files=2,
+        ligand_mask=":1443-1481",
+        receptor_mask=":82-1442",
+/
+&pb
+        inp=0, radiopt=0,
+        istrng=0.100,
+/
+&decomp
+        idecomp=3, 
+        print_res="1180-1442; 1471-1481"
+        dec_verbose=0,
+/

@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.RNA.OL3
+com = loadpdb 6ifo_fixed_deletedP.pdb
+cas = loadpdb cas_sgRNA.pdb
+acr = loadpdb acr.pdb 
+set default PBRadii Parse
+saveAmberParm com complex_sgRNA_pb.prmtop complex.inpcrd
+saveAmberParm cas cas_sgRNA_pb.prmtop cas.inpcrd
+saveAmberParm acr acr_pb.prmtop acr.inpcrd
+quit

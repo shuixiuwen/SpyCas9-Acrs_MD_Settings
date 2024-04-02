@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.RNA.OL3
+4zt0 = loadpdb 4zt0_selected_deleteP.pdb
+solvateOct 4zt0 TIP3PBOX 12.0
+addIons2 4zt0 Na+ 0
+addIons2 4zt0 Cl- 0
+saveamberparm 4zt0 4zt0.prmtop 4zt0.inpcrd
+quit
+
